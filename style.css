@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 100%;
+    height: 350px;
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: 1fr 1fr 1fr 125px;
+    grid-template-rows: 50px 100px 135px 1fr;
+}
+
+.cell{
+    border: 2px solid red;
+    margin: 2px;
+    text-align: center;
+}
+
+#cell1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: rgb(236, 96, 96);
+    color: white;
+    font-weight: 1000;
+    font-size: 35px;
+}
+#cell2{
+    background-color: rgb(90, 212, 90);
+    color: white;
+    font-weight: 1000;
+    font-size: 32px;
+    padding: 15px;
+}
+#cell3{
+    background-color: rgb(62, 169, 219);
+    color: white;
+    font-weight: 1000;
+    font-size: 32px;
+    padding: 15px;
+}
+#cell4{
+    background-color: rgb(50, 50, 240);
+    color: white;
+    font-weight: 1000;
+    font-size: 32px;
+    padding: 10px;
+}
+#cell5{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color:  #FFC300 ;
+    color: white;
+    font-weight: 1000;
+    font-size: 35px;
+    padding: 10px;
+}
+
+#cell6{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color:  rgba(0, 0, 0, 0.692) ;
+    color: white;
+    font-weight: 700;
+    font-size: 19px;
+    text-align: left;
+    letter-spacing: 2;
+}
+
+.border hr{
+    border: 2px do black;
+}
+
+#cell7{
+    background-color: rgba(57, 151, 240, 0.884);
+    color: black;
+    font-weight: 1000;
+    font-size: 32px;
+    padding: 10px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
